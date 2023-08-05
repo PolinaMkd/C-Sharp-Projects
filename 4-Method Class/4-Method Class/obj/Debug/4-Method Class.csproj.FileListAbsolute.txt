@@ -1,0 +1,8 @@
+C:\Users\Hamza A Rehman\source\repos\4-Method Class\4-Method Class\bin\Debug\4-Method Class.exe.config
+C:\Users\Hamza A Rehman\source\repos\4-Method Class\4-Method Class\bin\Debug\4-Method Class.exe
+C:\Users\Hamza A Rehman\source\repos\4-Method Class\4-Method Class\bin\Debug\4-Method Class.pdb
+C:\Users\Hamza A Rehman\source\repos\4-Method Class\4-Method Class\obj\Debug\4-Method Class.csproj.AssemblyReference.cache
+C:\Users\Hamza A Rehman\source\repos\4-Method Class\4-Method Class\obj\Debug\4-Method Class.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hamza A Rehman\source\repos\4-Method Class\4-Method Class\obj\Debug\4-Method Class.csproj.CoreCompileInputs.cache
+C:\Users\Hamza A Rehman\source\repos\4-Method Class\4-Method Class\obj\Debug\4-Method Class.exe
+C:\Users\Hamza A Rehman\source\repos\4-Method Class\4-Method Class\obj\Debug\4-Method Class.pdb
