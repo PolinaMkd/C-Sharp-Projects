@@ -1,0 +1,8 @@
+C:\Users\Hamza A Rehman\source\repos\5-Operators\5-Operators\obj\Debug\5-Operators.csproj.AssemblyReference.cache
+C:\Users\Hamza A Rehman\source\repos\5-Operators\5-Operators\obj\Debug\5-Operators.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hamza A Rehman\source\repos\5-Operators\5-Operators\obj\Debug\5-Operators.csproj.CoreCompileInputs.cache
+C:\Users\Hamza A Rehman\source\repos\5-Operators\5-Operators\bin\Debug\5-Operators.exe.config
+C:\Users\Hamza A Rehman\source\repos\5-Operators\5-Operators\bin\Debug\5-Operators.exe
+C:\Users\Hamza A Rehman\source\repos\5-Operators\5-Operators\bin\Debug\5-Operators.pdb
+C:\Users\Hamza A Rehman\source\repos\5-Operators\5-Operators\obj\Debug\5-Operators.exe
+C:\Users\Hamza A Rehman\source\repos\5-Operators\5-Operators\obj\Debug\5-Operators.pdb
