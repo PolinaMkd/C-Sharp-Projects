@@ -1,0 +1,13 @@
+C:\Users\Hamza A Rehman\source\repos\3-Code-First Console Application\3-Code-First Console Application\bin\Debug\3-Code-First Console Application.exe.config
+C:\Users\Hamza A Rehman\source\repos\3-Code-First Console Application\3-Code-First Console Application\bin\Debug\3-Code-First Console Application.exe
+C:\Users\Hamza A Rehman\source\repos\3-Code-First Console Application\3-Code-First Console Application\bin\Debug\3-Code-First Console Application.pdb
+C:\Users\Hamza A Rehman\source\repos\3-Code-First Console Application\3-Code-First Console Application\bin\Debug\EntityFramework.dll
+C:\Users\Hamza A Rehman\source\repos\3-Code-First Console Application\3-Code-First Console Application\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hamza A Rehman\source\repos\3-Code-First Console Application\3-Code-First Console Application\bin\Debug\EntityFramework.xml
+C:\Users\Hamza A Rehman\source\repos\3-Code-First Console Application\3-Code-First Console Application\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hamza A Rehman\source\repos\3-Code-First Console Application\3-Code-First Console Application\obj\Debug\3-Code-First Console Application.csproj.AssemblyReference.cache
+C:\Users\Hamza A Rehman\source\repos\3-Code-First Console Application\3-Code-First Console Application\obj\Debug\3-Code-First Console Application.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hamza A Rehman\source\repos\3-Code-First Console Application\3-Code-First Console Application\obj\Debug\3-Code-First Console Application.csproj.CoreCompileInputs.cache
+C:\Users\Hamza A Rehman\source\repos\3-Code-First Console Application\3-Code-First Console Application\obj\Debug\3-Code-First Console Application.csproj.CopyComplete
+C:\Users\Hamza A Rehman\source\repos\3-Code-First Console Application\3-Code-First Console Application\obj\Debug\3-Code-First Console Application.exe
+C:\Users\Hamza A Rehman\source\repos\3-Code-First Console Application\3-Code-First Console Application\obj\Debug\3-Code-First Console Application.pdb
