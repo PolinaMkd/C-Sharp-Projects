@@ -4,8 +4,14 @@
 PROJECTS:
 
 ASP.NET MVC Entity Framework
+
 Blackjack Game
+
 Code First Console Application
+
 Method Class
+
 Operators
+
 Polymorphism
+
