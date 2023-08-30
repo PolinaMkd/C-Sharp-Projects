@@ -35,6 +35,13 @@ namespace CarInsurance.Controllers
             return View(insuree);
         }
 
+        // GET: Insuree/Admin
+        public ActionResult Admin()
+        {
+            List<Insuree> insurees = db.Insurees.ToList();
+            return View(insurees);
+        }
+
         // GET: Insuree/Create
         public ActionResult Create()
         {
@@ -46,16 +53,79 @@ namespace CarInsurance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insuree insuree)
+        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType")] Insuree insuree)
         {
             if (ModelState.IsValid)
             {
+                // Calculate the base quote
+                decimal baseQuote = 50;
+
+                int age = CalculateAge(insuree.DateOfBirth);
+                if (age <= 18)
+                {
+                    baseQuote += 100;
+                }
+                else if (age >= 19 && age <= 25)
+                {
+                    baseQuote += 50;
+                }
+                else
+                {
+                    baseQuote += 25;
+                }
+
+                if (insuree.CarYear < 2000)
+                {
+                    baseQuote += 25;
+                }
+                else if (insuree.CarYear > 2015)
+                {
+                    baseQuote += 25;
+                }
+
+                if (insuree.CarMake == "Porsche")
+                {
+                    baseQuote += 25;
+                    if (insuree.CarModel == "911 Carrera")
+                    {
+                        baseQuote += 25;
+                    }
+                }
+
+                baseQuote += 10 * insuree.SpeedingTickets;
+
+                decimal duiAmount = 0;
+                if (insuree.DUI)
+                {
+                    duiAmount = baseQuote * 0.25m;
+                }
+
+                decimal coverageAmount = 0;
+                if (insuree.CoverageType)
+                {
+                    coverageAmount = baseQuote * 0.5m;
+                }
+
+                baseQuote += duiAmount + coverageAmount;
+                insuree.Quote = baseQuote;
+
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
             return View(insuree);
+        }
+
+        private int CalculateAge(DateTime birthDate)
+        {
+            DateTime now = DateTime.Now;
+            int age = now.Year - birthDate.Year;
+            if (now.Month < birthDate.Month || (now.Month == birthDate.Month && now.Day < birthDate.Day))
+            {
+                age--;
+            }
+            return age;
         }
 
         // GET: Insuree/Edit/5
